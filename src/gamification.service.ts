@@ -33,7 +33,7 @@ export class GamificationService {
                             title: { type: 'STRING', description: 'Título curto da missão' },
                             description: { type: 'STRING', description: 'O que deve ser feito' },
                             xpReward: { type: 'INTEGER', description: 'XP ganho (entre 10 e 50)' },
-                            icon: { type: 'STRING', description: 'Um emoji representativo' },
+                            coins: {type: 'INTEGER', description: 'Moedas ganhas (entre 5 e 20)' },
                         },
                         required: ['title', 'description', 'xpReward', 'icon'],
                     },
